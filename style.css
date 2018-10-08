@@ -1,0 +1,11 @@
+.container {
+  background: #AFEEEE;
+  width: 50%;
+  height: 50%;
+  margin: 35px auto;
+  padding: 20px;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
