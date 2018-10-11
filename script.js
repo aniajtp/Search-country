@@ -16,9 +16,7 @@ function searchCountries() {
 function showCountriesList(resp) {
   countriesList.empty();
   resp.forEach(function(item) {
-    resp.forEach(function(item){
       $('<li>').text(item.name).appendTo(countriesList);
-    });
   });
 }
 
