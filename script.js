@@ -20,11 +20,3 @@ function showCountriesList(resp) {
   });
 }
 
-function printResult(locationData) {
-    let name = locationData.capital,
-        flag = locationData.flag,
-        timeZone = locationData.timezones;
-    output.innerHTML = 'Capital: ' + name + ', <br>';
-    output.innerHTML += 'Timezones: ' + timeZone;
-    document.querySelector('.flag').setAttribute('src', flag);
-  }
