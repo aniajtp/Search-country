@@ -1,11 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .container {
   background: #AFEEEE;
   width: 50%;
   height: 50%;
-  margin: 35px auto;
+  margin: 50px auto;
   padding: 20px;
   text-align: center;
 }
+button, input {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
+h2 {
+  margin-top: 10px;
+}
 li {
   list-style-type: none;
+  font-size: 20px;
+  color: blue;
 }
